@@ -67,3 +67,19 @@ rm - remove files or directories
 help - prints a list of commands
 
 ###H3 1.4 Forking and Cloning Reflection
+
+**Repo instructions:**
+
+To create a new repository, first sign in to your GitHub account, click the plus-sign next to your avatar, and select _New repository_. Next, name your repository anything you like, and choose to make it public or private. Then, add a license to your repository. If you don’t know which license to choose, GitHub has you covered! Click the _i_ icon for more information. Finally, click _Create repository_.
+
+To fork a repository, click on the repository in question and click _Fork_ in the upper right corner. Then, choose a profile to work on your copy of the repository.
+
+To clone a repository, navigate to the repository page and copy the URL provided in the _HTTPS_ box. Then, open your command line. Change directories to the one you want to save the repository in, and type _git clone_. Add a space after the word _clone_ and then paste the URL and hit enter.
+
+**Why fork a repository instead of creating a new one?**
+
+Forking a repository allows the programmer to merge their copy with the master copy. This way many programmers can edit a project without interfering too much with each other, and the master branch builds on itself and grows. Making a new repository for every edit would be building from scratch every time, and would be much less efficient.
+
+**Struggles with Git and GitHub setup?**
+
+My main source of confusion came from my lack of knowledge of the Terminal on OS X. When I wanted to clone my repository to my computer, I was unsure how and where to put it. I put my cloning on hold while I went through the command line assignment, and when I came back I was confident enough to navigate through my directories and create a file for my phase0 material.
