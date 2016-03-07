@@ -37,6 +37,7 @@ def array_size(list_of_words)
   return size
 end
 
+
 def string_length(word)
   i = 0
   size = 0

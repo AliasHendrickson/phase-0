@@ -1,5 +1,4 @@
 require_relative "my_solution"
-
 describe 'shortest_string' do
   it "returns nil when the array is empty ([])" do
     expect(shortest_string([])).to be_nil
