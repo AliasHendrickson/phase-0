@@ -1,5 +1,6 @@
 require_relative "my_solution"
 
+
 describe 'array_concat' do
   it "is defined as a method" do
     expect(defined?(array_concat)).to eq 'method'
