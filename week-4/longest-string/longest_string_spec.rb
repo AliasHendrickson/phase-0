@@ -1,5 +1,6 @@
 require_relative "my_solution"
 
+
 describe 'longest_string' do
   it "returns nil when the array is empty ([])" do
     expect(longest_string([])).to be_nil
