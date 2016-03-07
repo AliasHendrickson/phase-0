@@ -1,5 +1,6 @@
 require_relative "my_solution"
 
+
 describe 'count_between' do
   it "returns 0 for an empty array" do
     expect(count_between([], -100, 100)).to be_zero
