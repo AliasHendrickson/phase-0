@@ -56,5 +56,14 @@ class Die
 end
 
 
-
 # Reflection
+=begin
+**What were the main differences between this die class and the last one you created in terms of implementation? Did you need to change much logic to get this to work?**
+  Instead of using "rand", I had to find a different method to randomize the output of an array of strings. The logic is the same for the rest of the class.
+**What does this exercise teach you about making code that is easily changeable or modifiable?**
+  Simplicity helps. My first solution worked to pass the tests, but I am not sure why. Also, I saw that I was defining two different variable names to store the same information, so I cut that out and kept just one variable and called it in the different methods. This way I had less variables to work with, and my solution is still readable because the methods define what they are doing with the variable.
+**What new methods did you learn when working on this challenge, if any?**
+  I learned "shuffle" for shaking up the insides of an array, and I returned a "random" element from the shuffled array by accessing the first value via the zeroth index. Since the contents were already shuffled, I did not need to randomize the output.
+**What concepts about classes were you able to solidify in this challenge?**
+  Defining variables in the initialization, and raising timely errors as well. Errors are most helpful when they are returned right after the action that caused the error is performed.
+=end
